@@ -1,0 +1,37 @@
+.user-data {
+    margin-left: 250px; 
+    padding: 20px;
+  }
+  
+  .user-data input {
+    display: block;
+    width: 90%;
+    margin-bottom: 10px;
+    padding: 10px;
+    font-size: 16px;
+  }
+  
+  .user-data button {
+    display: block;
+    width: 92%;
+    padding: 10px;
+    font-size: 16px;
+    background-color: #4CAF50; 
+    color: white;
+    border: none;
+    cursor: pointer;
+  }
+  
+  .user-data button:hover {
+    background-color: #45a049;
+  }
+
+  div.error {
+    padding: 10px;
+    background: #ffefef;
+    border: 1px solid var(--error);
+    color: var(--error);
+    border-radius: 4px;
+    margin: 20px 0;
+    width: 90%;
+  }

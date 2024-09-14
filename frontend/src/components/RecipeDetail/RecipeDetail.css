@@ -1,0 +1,8 @@
+.recipeDetail-img{
+    border-radius: 10%;
+    border: 2px solid black;
+}
+
+.recipeDetail-img:hover {
+    transform: scale(1.1);
+}

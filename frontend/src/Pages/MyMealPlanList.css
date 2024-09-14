@@ -1,0 +1,55 @@
+.container {
+  display: flex;
+}
+
+.mealPlanListPage {
+  display: flex;
+  flex-wrap: wrap;
+  padding-left: 250px;
+}
+
+.mealPlanCard {
+  background-color: #f9f9f9;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  padding: 100px;
+  text-align: center;
+  transition: all 0.3s ease;
+  width: 80px;
+  margin-bottom: 20px;
+}
+
+.mealPlanCard:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.mealPlanCard h2 {
+  font-size: 1.5rem;
+  margin-bottom: 10px;
+}
+
+.mealPlanCard p {
+  font-size: 1rem;
+  color: #666;
+}
+
+.mealPlanCard a {
+  text-decoration: none;
+  color: #333;
+}
+
+.mealPlanCard a:hover {
+  color: #000;
+}
+
+.sidebar {
+  z-index: 1;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 200px;
+  height: 100%;
+  background-color: #807c7c;
+  padding-top: 50px;
+}

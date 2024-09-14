@@ -1,0 +1,13 @@
+.recipeListPage {
+    background-color: rgb(207, 210, 210);
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 4px;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    justify-items: center; 
+    align-items: center; 
+}
+.recipeListPage img {
+    width: 58%; 
+}

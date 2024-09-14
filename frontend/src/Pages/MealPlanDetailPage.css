@@ -1,0 +1,62 @@
+.mealPlanDetailPage {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  background-color: #fff;
+}
+
+.mealPlanDetailPage h2 {
+  margin-top: 0;
+  font-size: 1.8rem;
+}
+
+.mealPlanDetailPage p {
+  font-size: 1.2rem;
+  color: #666;
+  margin-bottom: 10px;
+}
+
+.mealPlanDetailPage ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+.mealPlanDetailPage ul li {
+  margin-bottom: 20px;
+}
+
+.mealPlanDetailPage ul li h4 {
+  font-size: 1.5rem;
+  margin-bottom: 10px;
+}
+
+.mealPlanDetailPage ul li ul {
+  padding-left: 20px;
+}
+
+.mealPlanDetailPage ul li ul li {
+  font-size: 1.2rem;
+}
+
+.mealPlanDetailPage p:last-child {
+  margin-top: 20px;
+}
+
+.mealPlanDetailPage p span {
+  font-weight: bold;
+}
+
+.deleteButton {
+  background-color: #f44336;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.deleteButton:hover {
+  background-color: #d32f2f;
+}

@@ -1,0 +1,81 @@
+.recipeFormPage {
+    max-width: 700px;
+    margin: 0 auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.recipeFormPage h2 {
+    margin-top: 0;
+}
+
+.recipeFormPage label {
+    display: block;
+    margin-bottom: 5px;
+    margin-top: 20px;
+}
+
+.recipeFormPage input,
+.recipeFormPage select,
+.recipeFormPage textarea {
+    width: calc(100% - 10px);
+    padding: 8px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+.recipeFormPage button {
+    background-color: #4caf50;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    margin-top: 10px;
+}
+
+.recipeFormPage button[type="button"] {
+    background-color: #008cba;
+ 
+}
+
+.recipeFormPage button[type="submit"] {
+    background-color: #4caf50;
+}
+
+.recipeFormPage button:hover {
+    background-color: #45a049;
+}
+
+.recipeFormPage select {
+    width: calc(100% - 10px);
+}
+
+.recipeFormPage > div > div {
+    margin-bottom: 15px;
+}
+
+.recipeFormPage > div > div > div {
+    margin-top: 10px;
+}
+.ingredient-inputs {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.ingredient-quantity,
+.ingredient-unit,
+.ingredient-name {
+    flex: 1;
+    margin-right: 10px;
+}
+.Deuxiemebutton {
+  margin-right: 20px;
+}
+.rouge:hover {
+  background-color: #ff0000;
+}
